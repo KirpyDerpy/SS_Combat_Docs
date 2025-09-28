@@ -1,3 +1,53 @@
 @use "./base.scss";
+/* quartz/styles/custom.scss */
 
-// put your custom CSS here!
+@font-face {
+    font-family: "Trajan Pro 3 ExtraLight";
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url("/static/fonts/Trojan Pro 3 ExtraLight.ttf") format("ttf");
+  }
+  
+  @font-face {
+    font-family: "Trajan Pro 3 Light";
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url("/static/fonts/Trojan Pro 3 Light.ttf") format("ttf");
+  }
+  
+  @font-face {
+    font-family: "Trajan Pro 3 Semibold";
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url("/static/fonts/Trojan Pro 3 Semibold.ttf") format("ttf");
+  }
+
+  @font-face {
+    font-family: "Trajan Pro 3";
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url("/static/fonts/Trojan Pro 3.ttf") format("ttf");
+  }
+
+  @font-face {
+    font-family: "Trajan Pro 3 Black";
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url("/static/fonts/Trojan Pro 3 Black.ttf") format("ttf");
+  }
+
+  @font-face {
+    font-family: "Trajan Pro 3 Bold";
+    font-style: Bold;
+    font-weight: normal;
+    font-display: swap;
+    src: url("/static/fonts/Trojan Pro 3 Bold.ttf") format("ttf");
+  }
+
+  /*-- scss:rules --*/
+  

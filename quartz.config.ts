@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "Silksong Combat Docs",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -16,37 +16,38 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "KirpyDerpy.github.io/SS_Combat_Docs",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        title: "Trajan Pro 3",
+        header: "Source Serif Pro",
+        body: "Eczar",
         code: "IBM Plex Mono",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#faf8f8", //bg
+          lightgray: "#b96f78",//pastel red //borders
+          gray: "#9d3648",//Dark red //graph links, heavy borders
+          darkgray: "#4e4e4e", //body text
+          dark: "#5b252f",//Dark red //header text and icons
+          secondary: "#9d3648",//lighter red //links, graph node, site title
+          tertiary: "#be9367", //hover states, visited graph nodes
+          highlight: "rgba(143, 159, 169, 0.15)", //internal link background, highlighted text, highlighted lines of code
+          textHighlight: "#fff23688", //markdown highlighted text background
         },
         darkMode: {
           light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
+          lightgray: "#CEAC93",
+          gray: "#ebebec",
           darkgray: "#d4d4d4",
           dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
+          secondary: "#E2D4B1",
+          tertiary: "#B96F78",
           highlight: "rgba(143, 159, 169, 0.15)",
           textHighlight: "#b3aa0288",
         },
