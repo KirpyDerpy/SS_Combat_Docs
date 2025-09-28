@@ -9,7 +9,7 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Silksong Combat Docs",
-    pageTitleSuffix: "",
+    pageTitleSuffix: " | SSCDocs",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
